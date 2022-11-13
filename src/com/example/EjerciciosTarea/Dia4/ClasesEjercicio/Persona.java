@@ -1,4 +1,4 @@
-package com.example.EjerciciosTarea.Dia4;
+package com.example.EjerciciosTarea.Dia4.ClasesEjercicio;
 
 public class Persona {
     private String nombre;

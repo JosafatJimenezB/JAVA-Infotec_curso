@@ -8,7 +8,7 @@ public class Triangulo extends Figura{
 
     @Override
     public double area(){
-        area = ancho * alto / 2;
-        return area;
+//        alto = ancho * alto / 2;
+        return 4.3;
     }
 }

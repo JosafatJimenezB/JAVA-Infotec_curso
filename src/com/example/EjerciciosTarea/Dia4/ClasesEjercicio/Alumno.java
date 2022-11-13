@@ -1,6 +1,6 @@
-package com.example.EjerciciosTarea.Dia4;
+package com.example.EjerciciosTarea.Dia4.ClasesEjercicio;
 
-public class Alumno extends Persona{
+public class Alumno extends Persona {
 
     private static String promedio;
     private static String aprobado;
@@ -49,6 +49,6 @@ public class Alumno extends Persona{
     }
 
     public static String infoEscolar(){
-        return "Promedio: " + Alumno.getPromedio() + " Aprobado: " + Alumno.getAprobado();
+        return "Promedio: " + Alumno.getPromedio() + " - "+  "Aprobado: " + Alumno.getAprobado();
     }
 }

@@ -1,4 +1,4 @@
-package com.example.EjerciciosTarea.Dia4.Herencia;
+package com.example.EjerciciosTarea.Dia4.Figuras;
 
 public class Triangulo extends Figura{
 
@@ -8,7 +8,7 @@ public class Triangulo extends Figura{
 
     @Override
     public double area(){
-//        alto = ancho * alto / 2;
-        return 4.3;
+        area = Double.valueOf((ancho * alto) / 2);
+        return area;
     }
 }

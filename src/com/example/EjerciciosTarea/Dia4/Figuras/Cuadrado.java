@@ -1,4 +1,4 @@
-package com.example.EjerciciosTarea.Dia4.Herencia;
+package com.example.EjerciciosTarea.Dia4.Figuras;
 
 public class Cuadrado extends Figura{
 
@@ -12,8 +12,7 @@ public class Cuadrado extends Figura{
 
     @Override
     public double area(){
-//        area = ancho * alto;
-//        return area;
-        return 5.43;
+        area = Double.valueOf(ancho * alto);
+        return area;
     }
 }

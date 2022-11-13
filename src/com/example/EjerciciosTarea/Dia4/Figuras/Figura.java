@@ -1,13 +1,13 @@
-package com.example.EjerciciosTarea.Dia4.Herencia;
+package com.example.EjerciciosTarea.Dia4.Figuras;
 
 public abstract class Figura {
 
     private Integer coordenada_x;
     private Integer coordenada_y;
-    private Integer ancho;
-    private Integer alto;
+    protected Integer ancho;
+    protected Integer alto;
     private Double perimetro;
-    private Double area;
+    protected Double area;
 
     Figura(Integer ancho, Integer alto){
         this.ancho = ancho;

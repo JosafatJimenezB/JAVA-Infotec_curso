@@ -9,7 +9,7 @@ public abstract class Figura {
     private Double perimetro;
     private Double area;
 
-    public Figura(Integer ancho, Integer alto){
+    Figura(Integer ancho, Integer alto){
         this.ancho = ancho;
         this.alto = alto;
     }

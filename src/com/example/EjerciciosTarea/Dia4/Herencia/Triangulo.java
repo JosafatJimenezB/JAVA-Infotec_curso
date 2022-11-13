@@ -2,8 +2,8 @@ package com.example.EjerciciosTarea.Dia4.Herencia;
 
 public class Triangulo extends Figura{
 
-    Triangulo(Integer ancho, Integer alto){
-        super(ancho, alto);
+    Triangulo(Integer a, Integer b){
+        super(a, b);
     }
 
     @Override

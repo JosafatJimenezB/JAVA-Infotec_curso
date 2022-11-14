@@ -1,8 +1,5 @@
 package com.example.EjerciciosTarea.Dia4.Figuras;
 
-import java.rmi.ConnectIOException;
-import java.util.concurrent.RecursiveAction;
-
 public class Main {
 
     public static void main(String[] args) {

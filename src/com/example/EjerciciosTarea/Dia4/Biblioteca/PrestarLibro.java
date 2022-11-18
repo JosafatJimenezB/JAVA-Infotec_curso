@@ -40,5 +40,17 @@ public class PrestarLibro extends Libro{
         return prestado;
     }
 
-
+    @Override
+    public String toString() {
+        return  "Libro" +
+                "\ntitulo='" + getTitulo() + '\'' +
+                "\ncodigo=" + getCodigo() +
+                "\nestado='" + getEstado() + '\'' +
+                "\nanio=" + getAnio() +
+                "PrestarLibro{" +
+                "prestar=" + prestar +
+                ", devolver=" + devolver +
+                ", prestado=" + prestado +
+                '}';
+    }
 }

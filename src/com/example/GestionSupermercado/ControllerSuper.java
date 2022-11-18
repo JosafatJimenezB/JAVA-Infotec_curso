@@ -33,13 +33,12 @@ public class ControllerSuper {
 
 
             /// Switch para ingresar a la opcion elegida y separar el codigo
-            switch (opc){
-
-                case 1:
+            switch (opc) {
+                case 1 -> {
                     System.out.println("Empleados registrados en el sistema");
 
                     // Creando objeto del empleado
-                    Empleado empleado1 = new Empleado1(true, true, true,true);
+                    Empleado empleado1 = new Empleado1(true, true, true, true);
 
                     // Colocando los atributos del empleado
                     empleado1.setNombre("Juan");
@@ -49,65 +48,58 @@ public class ControllerSuper {
 
                     // Imprimiendo los datos del empleado
                     System.out.println(empleado1.toString());
-                    break;
-
-                case 2:
+                }
+                case 2 -> {
                     System.out.println("Productos disponibles");
 
                     // creando los productos
-                    for (int i = 0; i < 20; i++){
+                    for (int i = 0; i < 20; i++) {
                         /// Generando las cantidades aleatoriamente
-                        Integer cantidad = ran.nextInt(10,15);
-                        Integer precio = ran.nextInt(300,500);
+                        Integer cantidad = ran.nextInt(10, 15);
+                        Integer precio = ran.nextInt(300, 500);
 
-                        producto[i] = new Producto(name+i,precio+i,cantidad,tipo);
+                        producto[i] = new Producto(name + i, precio + i, cantidad, tipo);
                     }
 
                     // Imprimiendo el producto
-                    for (int j = 0; j < producto.length; j++){
+                    for (int j = 0; j < producto.length; j++) {
                         System.out.println(producto[j]);
                     }
-                    break;
-
-                case 3:
+                }
+                case 3 -> {
 
                     /* Seccion para buscar el producto y proceder a reducir las unidades conforme
                     se las van llevando*/
 
                     System.out.println("Compra de productos");
                     System.out.println("ingrese el nombre del producto: ");
-
                     sc.nextLine();
 
                     // Capturando el dato a buscar
                     String productoBuscar = sc.nextLine();
 
                     // comprobado si existe el producto dentro de la lista
-                    for (int x = 0; x < producto.length; x++){
-                        if (producto[x].getNombre() == productoBuscar){
+                    for (int x = 0; x < producto.length; x++) {
+                        if (producto[x].getNombre() == productoBuscar) {
                             System.out.println("Producto encontrado");
                             System.out.println(producto[x].getNombre());
 
 //                            producto[x].setCantidad() = producto[x].getCantidad() - 1;
 
-                        }
-                        else{
+                        } else {
                             System.out.println("Producto no encontrado");
                         }
                     }
-                    break;
-
-                case 4:
+                }
+                case 4 -> {
 
                     // Mensaje de finalizacion del programa
                     System.out.println("Hasta pronto");
                     System.out.println("Saliendo...");
-                    break;
+                }
 
-                    /// Opcion default en caso de elegir otra opcion que no este disponible
-                default:
-                    System.out.println("Opcion no disponible");
-                    break;
+                /// Opcion default en caso de elegir otra opcion que no este disponible
+                default -> System.out.println("Opcion no disponible");
             }
 
 

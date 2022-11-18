@@ -1,8 +1,5 @@
 package com.example.GestionSupermercado;
 
-import java.util.Collection;
-import java.util.Collections;
-
 public class Utileria {
 
     /*public int mayorPrecioProducto(int[] a){

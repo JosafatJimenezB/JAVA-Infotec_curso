@@ -1,6 +1,4 @@
 package com.example.EjerciciosTarea.Dia6;
-
-import java.util.ArrayList;
 import java.util.List;
 
 public class metodosEjericico1 {

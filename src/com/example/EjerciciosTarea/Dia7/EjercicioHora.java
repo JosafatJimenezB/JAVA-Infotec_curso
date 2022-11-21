@@ -7,11 +7,11 @@ public class EjercicioHora {
             System.out.println("buenos dias");
         } else if (hora >= 13 && hora <= 20) {
             System.out.println("Buenas tardes");
-        }else if(hora >= 22){
+        }else if(hora >= 21 && hora <= 24){
             System.out.println("Buenas noches");
         }
-        else {
-            System.out.println("Hora incorrecta");
+        else if(hora >= 1 && hora <= 5){
+            System.out.println("Buenas noches");
         }
     }
 }

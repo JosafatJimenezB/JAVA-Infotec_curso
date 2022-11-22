@@ -1,7 +1,5 @@
 package com.example.ApiStream.EjercicioClases;
 
-import javax.print.Doc;
-
 public class clases {
 
     public static void main(String[] args) {

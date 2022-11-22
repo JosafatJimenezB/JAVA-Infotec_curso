@@ -1,8 +1,5 @@
 package com.example.EjerciciosTarea.Dia4.ClasesEjercicio;
 
-import com.example.EjerciciosTarea.Dia4.ClasesEjercicio.Alumno;
-import com.example.EjerciciosTarea.Dia4.ClasesEjercicio.Persona;
-
 public class Main {
 
     public static void main(String[] args) {

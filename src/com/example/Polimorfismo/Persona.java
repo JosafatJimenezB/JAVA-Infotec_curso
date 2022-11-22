@@ -1,7 +1,5 @@
 package com.example.Polimorfismo;
 
-import com.example.Objetos.Person;
-
 public abstract class Persona {
 
     private String nombre;

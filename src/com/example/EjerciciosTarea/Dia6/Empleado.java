@@ -5,13 +5,14 @@ public class Empleado {
     private String nombre;
     private String apellidos;
     private int edad;
-    private String[] actividades;
 
-    public Empleado(String nombre, String apellidos, int edad, String[] actividades) {
+    private int codigoEmpleado;
+
+    public Empleado(String nombre, String apellidos, int edad, int codigoEmpleado) {
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.edad = edad;
-        this.actividades = actividades;
+        this.codigoEmpleado = codigoEmpleado;
     }
 
     public String getNombre() {
@@ -38,11 +39,18 @@ public class Empleado {
         this.edad = edad;
     }
 
-    public String[] getActividades() {
-        return actividades;
+    public int getCodigoEmpleado() {
+        return codigoEmpleado;
     }
 
-    public void setActividades(String[] actividades) {
-        this.actividades = actividades;
+    public void setCodigoEmpleado(int codigoEmpleado) {
+        this.codigoEmpleado = codigoEmpleado;
+    }
+
+    public void actividadesDiarias(){
+        System.out.println("Encender pc");
+    }
+    public void obtenerActividadesDiarias(){
+        actividadesDiarias();
     }
 }
